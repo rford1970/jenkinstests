@@ -1,7 +1,5 @@
 pipeline {
-   agent {
-       label "red29"
-   }
+   agent any
    stages {
         stage('First') {
             steps {
