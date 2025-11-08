@@ -11,7 +11,7 @@ pipeline {
                 branch 'main'
             }
             steps {
-                echo 'Jenkins, do some stuff.'
+                echo 'Jenkins, do something.'
 		sh '''                
 		df -h
  		echo ""
@@ -27,7 +27,7 @@ pipeline {
                 branch 'uggabooga'
             }
             steps {
-                echo 'Jenkins, do some things.'
+                echo 'Jenkins, do some stuff.'
                 echo 'Dis is branch uggabooga'
             }
         }
